@@ -538,7 +538,7 @@ static bool validate_cells_appconfig(span<const cell_appconfig> config)
 static bool validate_amf_appconfig(const amf_appconfig& config)
 {
   // only check for non-empty AMF address and default port
-  if (config.ip_addr.empty() or config.port != 38412) {
+  if (config.ip_addr.empty() or config.port != /*38412*/24221) {
     return false;
   }
   return true;
