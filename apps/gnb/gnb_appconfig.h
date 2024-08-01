@@ -615,7 +615,7 @@ struct qos_appconfig {
 
 struct amf_appconfig {
   std::string ip_addr                = "127.0.0.1";
-  uint16_t    port                   = 5000;//38412;
+  uint16_t    port                   = 9200;//38412;
   std::string bind_addr              = "127.0.0.1";
   std::string n2_bind_addr           = "auto";
   std::string n3_bind_addr           = "auto";

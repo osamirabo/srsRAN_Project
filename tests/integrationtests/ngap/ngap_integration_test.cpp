@@ -105,7 +105,7 @@ protected:
     sctp_network_gateway_config nw_config;
     nw_config.connection_name   = "AMF";
     nw_config.connect_address   = "10.12.1.105";
-    nw_config.connect_port      = 5000;//38412;
+    nw_config.connect_port      = 9200;//38412;
     nw_config.bind_address      = "10.8.1.10";
     nw_config.bind_port         = 0;
     nw_config.non_blocking_mode = true;
