@@ -33,7 +33,7 @@ namespace srsran {
 
 /// Port specified for Encapsulated T-PDUs,
 /// TS 29.281 Sec. 4.4.2.3
-constexpr unsigned GTPU_PORT = 2152;
+constexpr unsigned GTPU_PORT = 9390;//2152;
 
 /// \brief Configurable parameters for the GTP-U
 struct gtpu_config {
