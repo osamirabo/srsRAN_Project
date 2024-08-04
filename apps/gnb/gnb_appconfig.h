@@ -617,8 +617,8 @@ struct amf_appconfig {
   std::string ip_addr                = "127.0.0.1";
   uint16_t    port                   = 9200;//38412;
   std::string bind_addr              = "127.0.0.1";
-  std::string n2_bind_addr           = "10.195.0.2"; //"auto";
-  std::string n3_bind_addr           = "10.195.0.2"; //"auto";
+  std::string n2_bind_addr           = "auto"; //"10.195.0.2"; //"auto";
+  std::string n3_bind_addr           = "auto"; //"10.195.0.2"; //"auto";
   int         sctp_rto_initial       = 120;
   int         sctp_rto_min           = 120;
   int         sctp_rto_max           = 500;
